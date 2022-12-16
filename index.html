@@ -11,73 +11,112 @@
 </head>
 
 <body>
+
   <header>
-    <!-- <div class="m_header">
-      <input type="radio" id="checkbox-hidden" name="display-on-mt" hidden>
-      <input type="radio" id="checkbox-list-on-mt" name="display-on-mt" hidden>
-      <label class="mt__header-overlay" for="checkbox-hidden"></label>
-      <div class="mt__header-menu">
-        <div class="mt__header-menu-heading">
-          <span href class="mt__header-menu-login">Đăng nhập</span>
-          <a href class="mt__header-menu-special">/</a>
-          <span href class="mt__header-menu-register">Đăng ký</span>
-        </div>
-        <div class="mt__header-menu-list">
-          <li class="m_header-menu-item">Trang chủ</li>
-          <li class="m_header-menu-item">Giới thiệu</li>
-          <li class="m_header-menu-item">Sản phẩm</li>
-          <li class="m_header-menu-item">Tin tức</li>
-          <li class="m_header-menu-item">Thực đơn</li>
-          <li class="m_header-menu-item">Liên hệ</li>
+    <input type="checkbox" name="" hidden class="nav__input" id="nav-moblie-input">
+    <div class="m_header">
+      <div class="m_header--static">
+        
+        <label for="nav-moblie-input"><i class="fa-solid fa-bars"></i></label>     
+        <div class="m_header--mid">
+          <div class="m_header-icon">
+            <div class="m_logo">
+              <img src="./img/logo_white.webp" alt="">
+            </div>
+            <div class="m_shopping_cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+          </div>
+          <div class="m_search">
+            <input id="m_search--input" type="text" placeholder="Nhập sản phẩm cần tìm">
+            <button class="m_search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
         </div>
       </div>
-    </div> -->
-    <div class="header__top">
-      <p class="top--icon">
-        <i class="fa-solid fa-phone-volume"></i>Hotline: 0123456789
-      </p>
-      <ul class="top--right">
-        <li class="search">
-          <input type="text" placeholder="Tìm kiếm..." /><i class="fa-solid fa-magnifying-glass"></i>
-        </li>
-        <li class="sign-main">
-          <i class="fa-solid fa-user"></i>Tài khoản
-          <ul class="sign">
-            <li class="sign-up"><a href="">Đăng ký</a></li>
-            <li class="sign-in"><a href="">Đăng nhập</a></li>
-          </ul>
-        </li>
-        <li class="top--icon">
-          <i class="fa-solid fa-cart-shopping"></i>Giỏ hàng
-        </li>
-      </ul>
+      <div class="m_header-nav">
+        <label for="nav-moblie-input" class="m_header__overlay">
+        </label>
+        <div class="m__header-menu">
+          <div class="m__header-menu-heading">
+            <span href class="m__header-menu-login"><a href="#">Đăng nhập</a></span>
+            <span> / </span>
+            <span href class="m__header-menu-register"><a href="#">Đăng ký</a></span>
+          </div>
+          <label for="nav-moblie-input" class="close__btn__menu"><i class="fa-solid fa-xmark"></i></label>
+          <div class="m__header-menu-list">
+            <li class="m_header-menu-item">
+              <a href class="m__header-menu-link">Trang chủ</a>
+            </li>
+            <li class="m_header-menu-item">
+              <a href="" class="m__header-menu-link">Giới thiệu</a>
+            </li>
+            <li class="m_header-menu-item">
+              <a href class="m__header-menu-link">Sản phẩm</a>
+            </li>
+            <li class="m_header-menu-item">
+              <a href class="m__header-menu-link">Tin tức</a>
+            </li>
+            <li class="m_header-menu-item">
+              <a href class="m__header-menu-link">Thực đơn</a>
+            </li>
+            <li class="m_header-menu-item">
+              <a href class="m__header-menu-link">Liên hệ</a>
+            </li>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="header__nav">
-      <ul class="nav--left">
-        <li class="nav-main"><a href="#">Trang chủ</a></li>
-        <li class="nav-main"> <a href="#introduce__part"> Giới thiệu</a></li>
-        <li class="nav-main">
-          <a href="#content-title"> Sản phẩm</a>
-          <i class="fa-sharp fa-solid fa-caret-down"></i>
-          <ul class="nav--product">
-            <li><a href="#content-title">Cà phê</a></li>
-            <li><a href="#content-title">Bánh ngọt</a></li>
-            <li><a href="#content-title">Nước ép</a></li>
-            <li><a href="#content-title">Sinh tố</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div class="nav--logo">
-        <img src="./img/logo.webp" alt="" />
+
+    <div class="pc_header">
+      <div class="header__top">
+        <p class="top--icon">
+          <i class="fa-solid fa-phone-volume"></i>Hotline: 0123456789
+        </p>
+        <ul class="top--right">
+          <li class="search">
+            <input type="text" placeholder="Tìm kiếm..." /><i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+          <li class="sign-main">
+            <i class="fa-solid fa-user"></i>Tài khoản
+            <ul class="sign">
+              <li class="sign-up"><a href="">Đăng ký</a></li>
+              <li class="sign-in"><a href="">Đăng nhập</a></li>
+            </ul>
+          </li>
+          <li class="top--icon">
+            <i class="fa-solid fa-cart-shopping"></i>Giỏ hàng
+          </li>
+        </ul>
       </div>
-      <ul class="nav--right">
-        <li class="nav-main">
-          <a href="#news__part">Tin tức</a>
-        </li>
-        <li class="nav-main">Khuyến mãi</li>
-        <li class="nav-main">Thực đơn</li>
-        <li class="nav-main">Liên hệ</li>
-      </ul>
+      <div class="header__nav">
+        <ul class="nav--left">
+          <li class="nav-main"><a href="#">Trang chủ</a></li>
+          <li class="nav-main"> <a href="#introduce__part"> Giới thiệu</a></li>
+          <li class="nav-main">
+            <a href="#content-title"> Sản phẩm</a>
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+            <ul class="nav--product">
+              <li><a href="#content-title">Cà phê</a></li>
+              <li><a href="#content-title">Bánh ngọt</a></li>
+              <li><a href="#content-title">Nước ép</a></li>
+              <li><a href="#content-title">Sinh tố</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav--logo">
+          <img src="./img/logo.webp" alt="" />
+        </div>
+        <ul class="nav--right">
+          <li class="nav-main">
+            <a href="#news__part">Tin tức</a>
+          </li>
+          <li class="nav-main">Khuyến mãi</li>
+          <li class="nav-main">Thực đơn</li>
+          <li class="nav-main">Liên hệ</li>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
@@ -489,7 +528,7 @@
           <li>Hotline đặt bàn: 1900 6750 <br>Hotline giao hàng: 1900 1001 </li>
         </ul>
       </li>
-      <li class="footer-box col-6" >
+      <li class="footer-box col-6">
         <h1>ĐĂNG KÝ NHẬN KHUYẾN MÃI</h1>
         <p>Đừng bỏ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn</p>
         <div class="footer-contact">
