@@ -635,6 +635,14 @@ footer {
 .contact {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+.contact-item {
+  list-style: none;
+  display: flex;
+  
   gap: 10px;
   align-items: center;
 }
