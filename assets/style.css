@@ -17,7 +17,9 @@
   --header-height: 170px;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 #myBtn {
   display: none;
   position: fixed;

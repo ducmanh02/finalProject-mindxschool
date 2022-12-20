@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #282828;
+    --primary-color: #4d8a54;
+    --border-color: #dbdbdb;
+    --soft-color: #fdede9;
+    --star-gold: #ffce3e;
+    --navbar-height: 45px;
+    --header-height: 170px;
+  }
+
+  
+.login_modal{
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.input_login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    
+}
+input[type="text"],input[type="password"]{
+    padding: 10px 10px 10px 30px;
+    border-radius: 5px;
+    border:  1px solid gainsboro;
+
+}
+.fa-solid{
+    position: relative;
+    top: 28px;
+    left: 9px;
+}
+.login_button{
+    margin-top: 20px;
+}
+.login_button button{
+    padding: 5px ;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    color: #fff;
+   cursor: pointer;
+
+}
+
+.forgotPass_button{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

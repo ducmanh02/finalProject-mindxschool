@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/loginbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Đăng nhập</title>
 </head>
 <body>
     
 </body>
+    <div class="overlay_login"></div>
+    <div class="login_modal">
+        <div class="title">
+            <h1>Đăng nhập</h1>
+        </div>
+        <div class="input_login">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Username">
+            <span id="Error_user"></span>
 
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password">
+            <span id="Error_password"></span>
+        </div>
+        <div class="login_button">
+            <button>Login</button>
+        </div>
+        <div class="forgotPass_button">
+            <a href="#">Quên mật khẩu?</a>
+        </div>
+    </div>
 </html>
